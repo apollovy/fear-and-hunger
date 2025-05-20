@@ -1,0 +1,7257 @@
+[
+  null,
+  {
+    "id": 1,
+    "animationId": 41,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старинная книга в причудливой обложке.\nТы чувствуешь сильное желание прочитать книгу.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 3,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 186,
+    "itypeId": 2,
+    "name": "Старинная книга",
+    "note": "",
+    "occasion": 2,
+    "price": 50,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 2,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга с красиво оформленной обложкой. От неё веет \nблагородством.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 5,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 260,
+    "itypeId": 2,
+    "name": "Книга забытых воспоминаний",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 3,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "В этой книге собраны рецепты различных мясных блюд.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 6,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Рецепты 15-го века.",
+    "note": "<Item Recipe: 14>\n<Item Recipe: 41>\n<Item Recipe: 62>\n<Item Recipe: 63>\n<Item Recipe: 70>\n<Item Recipe: 168>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 4,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Великолепная коллекция любовных писем, написанных \nлегендарным героем Роном Чамбарой.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 7,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Поэмы о любви и мучениях",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 5,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Деревянная палка, обмотанная ветошью, чтобы продлить \nгорение. При использовании замедляются эффекты тьмы.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 1,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 175,
+    "itypeId": 1,
+    "name": "Факел",
+    "note": "<Synthesis Ingredients>\nitem 7\nitem 27\nitem 8\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 6,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 2,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 108,
+    "itypeId": 1,
+    "name": "Фонарик",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 7,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Используйте, чтобы высечь искру. Свет обеспечивает \nтепло и безопасность, а также сдерживает страх.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 185,
+    "itypeId": 1,
+    "name": "Огниво",
+    "note": "<Item Recipe: 5>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 8,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Тканью можно перевязать несерьезные ранения и \nостановить кровотечение.",
+    "effects": [
+      {
+        "code": 22,
+        "dataId": 5,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 184,
+    "itypeId": 1,
+    "name": "Кусок ткани",
+    "note": "<Synthesis Ingredients>\narmor 7\n</Synthesis Ingredients>\n<Item Recipe: 5>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 9,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Маленький флакон. Обычно используется в алхимии.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 183,
+    "itypeId": 1,
+    "name": "Стеклянный флакон",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 10,
+    "animationId": 99,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 4,
+      "formula": "100",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Флакон с мутной легковоспаменяющейся жидкостью внутри.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 75,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 182,
+    "itypeId": 1,
+    "name": "Мутный флакон",
+    "note": "<Synthesis Ingredients>\nitem 11\nitem 12\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 2,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 11,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с загадочной черной жидкостью.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 182,
+    "itypeId": 1,
+    "name": "Черный флакон",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 12,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с маслом. Воспламеняющаяся жидкость.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 182,
+    "itypeId": 1,
+    "name": "Масло",
+    "note": "\n",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 13,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга для начинающих алхимиков.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 16,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Алхемилия том 2",
+    "note": "<Item Recipe: 10>\n<Item Recipe: 52>\n<Item Recipe: 53>\n<Item Recipe: 61>\n<Item Recipe: 78>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 14,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старомодный мясной пирог. \nДовольно прост в приготовлении.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 179,
+    "itypeId": 1,
+    "name": "Мясной пирог",
+    "note": "<Synthesis Ingredients>\nitem 15\nitem 16\nitem 17\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 15,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Яйцо птицы или ящерицы. Кто знает?",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 178,
+    "itypeId": 1,
+    "name": "Яйцо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 16,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Высушенные во избежание порчи, полоски мяса.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 177,
+    "itypeId": 1,
+    "name": "Вяленое мясо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 17,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Молотая пшеница для употребления в пищу людьми.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 176,
+    "itypeId": 1,
+    "name": "Мука",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 18,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Приказы написанные капитаном, ведающим подземельями\nСтраха и Голода.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 8,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Приказы капитана",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 19,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Список всех заключенных, запертых в темницах этого\nподзмелья.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 9,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Список заключенных ",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 20,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Ржавый изношенный ключ.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 188,
+    "itypeId": 1,
+    "name": "Маленький ключ",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 21,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Отвратительный кусок сгнившего мяса. Пригодность\nв пищу сомнительна. А пищевое отравление обеспечено.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 61,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 177,
+    "itypeId": 1,
+    "name": "Гнилое мясо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 22,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Небольшой отрывок из дневника капитана.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 61,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Дневник капитана 1",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 23,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга о древнем городе Ма'Хабре.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 11,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Ма'Авре",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 24,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга о древнем боге Гро-Гороте.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 12,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Учения Гро-Горота I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 25,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Эта книга повествует о легендарном братстве, которое \nв наши дни известно как новые боги.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Братство, глава 1",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 26,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Сосновая шишка. Когда-нибудь из него может вырасти \nдерево.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 189,
+    "itypeId": 1,
+    "name": "Шишка",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 27,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Срезанная ветка дерева. Может оказаться полезной\nв некоторых ситуациях.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 190,
+    "itypeId": 1,
+    "name": "Палка",
+    "note": "<Item Recipe: 5>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 28,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "20",
+      "type": 3,
+      "variance": 0
+    },
+    "description": "Флакон с синей жидкостью.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 180,
+    "itypeId": 1,
+    "name": "Синий флакон",
+    "note": "<Synthesis Ingredients>\nitem 95: 2\n</Synthesis Ingredients>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 29,
+    "animationId": 13,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 4,
+      "formula": "30",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Лампа жреца тьмы. Вы можете бросить её в в своих \nврагов чтобы поджечь их.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 75,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 196,
+    "itypeId": 1,
+    "name": "Лампа жреца",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 30,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "50",
+      "type": 4,
+      "variance": 5
+    },
+    "description": "Бутылка старого виски. Поможет сохранить рассудок в\nвечно давящей тьме.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 208,
+    "itypeId": 1,
+    "name": "Бутылка виски",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 31,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Засохший хлеб, на котором уже образовалась плесень.\nНа мгновение облегчит голод.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 209,
+    "itypeId": 1,
+    "name": "Заплесневелый хлеб",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 32,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Дневник, написанный капитаном, ведающим \nподземельями Страха и Голода.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 10,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Дневник капитана 1",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 33,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон со слизью желтого цвета. Запах очень соленый,\nно может быть жидкость пригодна в пищу...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 197,
+    "itypeId": 1,
+    "name": "Желтый флакон",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 34,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон, наполненный кровью.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 181,
+    "itypeId": 1,
+    "name": "Флакон с кровью",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 35,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Заметки написанные мучителем.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 19,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Заметки мучителя 1",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 36,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга о древнем боге Алл-Мере.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 20,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Учения Алл-Мера I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 37,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старый засохший сыр. Пахнет довольно неприятно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 210,
+    "itypeId": 1,
+    "name": "Сыр",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 38,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "30",
+      "type": 4,
+      "variance": 5
+    },
+    "description": "Бутылка эля. Эль внутри мутный. Помогает вам \nсохранить рассудок в вечно давящей тьме.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 208,
+    "itypeId": 1,
+    "name": "Эль",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 39,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга о древней богине Сильвиан.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 21,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Учения Сильвиан I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 40,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Эту книгу написали восточные монахи.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 22,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 261,
+    "itypeId": 2,
+    "name": "Книга просветления",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 41,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старомодный пирог из морковки и капусты.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 179,
+    "itypeId": 1,
+    "name": "Овощной пирог",
+    "note": "<Synthesis Ingredients>\nitem 43\nitem 42\nitem 17\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 42,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Вполне съедобная морковь.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 202,
+    "itypeId": 1,
+    "name": "Морковь",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 43,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Капуста с несколькими гнилыми листья. В остальном она \nвыглядит свежой и вкусной.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 201,
+    "itypeId": 1,
+    "name": "Капуста",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 44,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Маленький нож для снятия шкур с животных и других \nживых существ.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 198,
+    "itypeId": 1,
+    "name": "Нож для снятия шкур",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 45,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Кожа снятая со стражника.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 195,
+    "itypeId": 1,
+    "name": "Кожа стража",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 46,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Кожа снятая с гуля.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 194,
+    "itypeId": 1,
+    "name": "Кожа гуля",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 47,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Справочник содержит инструкции, как изготавливать\nмаскировку из шкур разных животных.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 24,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Справочник убийцы I",
+    "note": "<Armor Recipe: 5>\n<Armor Recipe: 6>\n<Armor Recipe: 48>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 48,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Связка ключей.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 188,
+    "itypeId": 1,
+    "name": "Тюремный ключ Эт.3",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 49,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Пустая книга с деревянной обложкой.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 1,
+    "name": "Бутафорская книга",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 50,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Отмычки легко ломаются. Чтобы взломать замок нужны \nнавыки.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "Отмычка",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 51,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Ключ, найденный у мучителя - Тротюра.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 188,
+    "itypeId": 1,
+    "name": "Ключ Эт.2",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 52,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с белой жидкостью. Действует как противоядие.",
+    "effects": [
+      {
+        "code": 22,
+        "dataId": 90,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 226,
+    "itypeId": 1,
+    "name": "Белый флакон",
+    "note": "<Synthesis Ingredients>\nitem 28\nitem 53\n</Synthesis Ingredients>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 53,
+    "animationId": 51,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с фиолетовой жидкостью. Медленный, но крайне \nсильный яд.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 212,
+    "itypeId": 1,
+    "name": "Фиолетовый флакон",
+    "note": "<Synthesis Ingredients>\nitem 28\nitem 54\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 54,
+    "animationId": 143,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с жидкостью красного цвета. Крайне едкое. \nС помощью него можно расплавить некоторые предметы.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 93,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 49,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 181,
+    "itypeId": 1,
+    "name": "Красный флакон",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 55,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Живой и дышащий зародыш. Кажется, ему больно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 211,
+    "itypeId": 1,
+    "name": "Зародыш",
+    "note": "<Synthesis Ingredients>\nitem 11\nitem 34\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 56,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга с продвинутыми рецептами алхимии.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 30,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Сотворение жизни I",
+    "note": "<Item Recipe: 55>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 57,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с желтым молоком для карликов.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 197,
+    "itypeId": 1,
+    "name": "Молоко карликов",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 58,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Выглядит как фекалии, пахнет как фекалии... \nЗачем вообще кто-то решил носить это с собой?",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 216,
+    "itypeId": 1,
+    "name": "Грязь",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 59,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Одна из форм денег снаружи. Они могут иметь ценность\nи в этих подземельях...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 217,
+    "itypeId": 1,
+    "name": "Серебряная монета",
+    "note": "<Not Independent Item>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 60,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Яйцо найденное в теле Пещерной матери.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 220,
+    "itypeId": 1,
+    "name": "Яйцо карлика",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 61,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с зеленой жидкостью. Её запах заставляет мышцы \nсокращаться, а чувства обостриться.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 21,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 213,
+    "itypeId": 1,
+    "name": "Зеленый флакон",
+    "note": "<Synthesis Ingredients>\nitem 28\nitem 33\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 62,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Отличный способ начать новый день - это когда живот\nнемного полон.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 228,
+    "itypeId": 1,
+    "name": "Яйца с беконом",
+    "note": "<Synthesis Ingredients>\nitem 16\nitem 15\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 63,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Тушеное мясо с прекрасным вкусом. Не каждый день\nможно так хорошо поесть.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 227,
+    "itypeId": 1,
+    "name": "Тушеное рагу",
+    "note": "<Synthesis Ingredients>\nitem 42\nitem 64\nitem 65\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 64,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Цвет помидора немного бледный, это говорит о том что \nон давно не видел солнца.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 229,
+    "itypeId": 1,
+    "name": "Помидор",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 65,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Сушеный гриб. Может храниться долгое время.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 232,
+    "itypeId": 1,
+    "name": "Сушеный гриб",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 66,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Гриб излучает бледный цвет. \nОт него исходит странный запах.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 231,
+    "itypeId": 1,
+    "name": "Светящийся гриб",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 67,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "80",
+      "type": 3,
+      "variance": 0
+    },
+    "description": "Флакон с голубой жидкостью.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 225,
+    "itypeId": 1,
+    "name": "Голубой флакон",
+    "note": "<Synthesis Ingredients>\nitem 28: 2\n</Synthesis Ingredients>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 68,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Сухой кусок салями. Приготовлен из конины.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 230,
+    "itypeId": 1,
+    "name": "Салями",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 69,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Довольно свежая куча синих ягод. Они очень полезные!",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 233,
+    "itypeId": 1,
+    "name": "Черника",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 70,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "20",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Старомодный пирог из черники. Вкусно  и полезно!",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 179,
+    "itypeId": 1,
+    "name": "Черничный пирог",
+    "note": "<Synthesis Ingredients>\nitem 69\nitem 17\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 71,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Белый порошок. При смешении с правильными \nингредиентами, можно получить что-нибудь интересное...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 224,
+    "itypeId": 1,
+    "name": "Нитроглицериновый порошок",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 72,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Если у вас есть трубка, вы можете его покурить.\nОбладает успокаивающим эффектом, снижает страх.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 240,
+    "itypeId": 1,
+    "name": "Опиум",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 73,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "С ее помощью можно покурить что-нибудь.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 45,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 241,
+    "itypeId": 1,
+    "name": "Трубка",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 74,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Редкий предмет роскоши с нового континента, темных \nземель Винланда. Можно выкурить с помощью трубки.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 242,
+    "itypeId": 1,
+    "name": "Табак",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 75,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Стрела с железным наконечником. Нужна для стрельбы из \nлука. Если у вас есть лук, нажмите [SHIFT] чтобы стрелять.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 237,
+    "itypeId": 1,
+    "name": "Железная стрела",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 76,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мощная ловушка, которая может нанести серьезные \nранения.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 55,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 248,
+    "itypeId": 1,
+    "name": "Капкан",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 77,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Чистый бриллиант, излучающий слабый свет. За \nпределами этих подземелий он бы стоил огромных денег.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 247,
+    "itypeId": 1,
+    "name": "Алмаз",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 78,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с жидкостью оранжевого цвета. Один запах\nвызывает у тебя выброс адреналина...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 20,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 244,
+    "itypeId": 1,
+    "name": "Оранжевый флакон",
+    "note": "<Synthesis Ingredients>\nitem 54\nitem 33\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 79,
+    "animationId": 23,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "50",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Флакон наполеннный взрывоопасными жидкостями. Может\nиспользоваться для расчистки обвалов камней и щебня.",
+    "effects": [],
+    "hitType": 1,
+    "iconIndex": 226,
+    "itypeId": 1,
+    "name": "Взрывной флакон",
+    "note": "<Synthesis Ingredients>\nitem 11\nitem 71\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 2,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 80,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Детская сказка о Покеткэте. Это первая глава.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 60,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Сказка о Покеткэте I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 81,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Небольшой отрывок из дневника капитана.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 62,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Дневник капитана 2",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 82,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Небольшой отрывок из дневника капитана.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 10,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Дневник капитана 3",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 83,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга об учении великого волшебника Восточных \nсвятилищ.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 63,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Магия крови и цветов I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 84,
+    "animationId": 54,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "20",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Небольшой камень.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 16,
+        "value1": 0.7,
+        "value2": 0
+      }
+    ],
+    "hitType": 1,
+    "iconIndex": 249,
+    "itypeId": 1,
+    "name": "Камень",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 80,
+    "tpGain": 0
+  },
+  {
+    "id": 85,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "2",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Флакон наполненный водой. Вода внутри выглядит и \nпахнет как питьевая.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 88,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 180,
+    "itypeId": 1,
+    "name": "Флакон с водой",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 86,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Страница явно была вырвана из книги. Тут говорится о\nВороне-Истязателе.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 77,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Вырванная страница",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 87,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Соколинное перо. Идеально подходит для письма.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 250,
+    "itypeId": 1,
+    "name": "Перо",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 88,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Пустой свиток, ожидающий росчерка пера.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 84,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Пустой свиток",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 89,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга содержащая рецепты для опытных алхимиков.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 78,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Алхимелия том 3",
+    "note": "<Item Recipe: 79>\n<Item Recipe: 67>\n<Item Recipe: 90>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 90,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон с жидкостью коричневого цвета. Запах \nзаставляет мышцы сокращаться и обостряет ваши чувства.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 21,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 20,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 18,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 245,
+    "itypeId": 1,
+    "name": "Коричневый флакон",
+    "note": "<Synthesis Ingredients>\nitem 78\nitem 61\n</Synthesis Ingredients>",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 91,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мясо морского дракона. Оно жирное и аппетитно пахнет.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 253,
+    "itypeId": 1,
+    "name": "Мясо морского дракона",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 92,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мех пещерного волка. Шерсть жесткая, совсем не мягкая \nи имеет кожистую текстуру.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 259,
+    "itypeId": 1,
+    "name": "Мех пещерного волка",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 93,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Обыденно выглядящая книга, чувствуется на удивление\nувесистой. Обложка выглядит очень старой.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 93,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Путь в Ма'Хабре",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 94,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Зеленые травы с горьким запахом. Обычно их растирают \nна теле для лечения инфекции.",
+    "effects": [
+      {
+        "code": 22,
+        "dataId": 55,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 56,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 264,
+    "itypeId": 1,
+    "name": "Зеленые травы",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 95,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "10",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Синие травы со сладким запахом.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 265,
+    "itypeId": 1,
+    "name": "Синие травы",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 96,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Клеймо для тех, кто заразился черной чумой.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 266,
+    "itypeId": 1,
+    "name": "Тавро",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 97,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "40",
+      "type": 4,
+      "variance": 5
+    },
+    "description": "Флакон старого мутного вина. Выпейте, чтобы ослабить \nваши чувства и страх.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 181,
+    "itypeId": 1,
+    "name": "Флакон с вином",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 98,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга о различных фобиях.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 139,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Книга Страхов",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 99,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Чудодейственное зелье, которое обязуется полностью\nизлечить ваши недуги. Жидкость подозрительно мутная.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 150,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 269,
+    "itypeId": 1,
+    "name": "Зелье полного исцеления",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 100,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Чудотворное зелье полностью восстанавливающее\nваш рассудок. Жидкость пахнет ужасно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 150,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 267,
+    "itypeId": 1,
+    "name": "Зелье полного здравомыслия",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 101,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Чудотворное зелье которое возвращает жизнь туда, где \nона когда-то зиждилась. Цвет жидкости вызывает тошноту.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 150,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 268,
+    "itypeId": 1,
+    "name": "Зелье жизни",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 102,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты искусства воровства и карманных краж.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 70,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток воровства",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 103,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты стремительности и быстрого бега.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 71,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток путешественника",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 104,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты искусства взлома.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 72,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток взлома",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 105,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты искусства фехтования и быстрой атаки.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 66,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток фехтования",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 106,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты контр-техник.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 67,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток мечника",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 107,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты военного искусства. Умный генерал \nзнает, когда нужно переходить в оборону.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 68,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток генерала",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 108,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты великой магии крови. Секреты которые\nзнают только самые целеустремленные волшебники.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 74,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток магов",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 109,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты кровавых жертвоприношений, нечестивых\nцеремоний членовредительства и нанесения увечий.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 75,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток колдуна",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 110,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты поедания тел. \nОсобые навыки северных дикарей.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 78,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток дикаря",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 111,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты меткой стрельбы из лука.\nУникальный талант восточных монгольских армий.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 79,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток меткого стрелка",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 112,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты кровожадности. Умение, что свирепые\nсеверные племена использовали на протяжении поколений.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 80,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток берсерка",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 113,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте нюансы хорошей подсечки. Невероятная техника \nтребующая большой гибкости.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 136,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток длинного меча",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 114,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 115,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Поверхность драгоценного камня гладкая, но кажется\nестественной и первозданной.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 273,
+    "itypeId": 1,
+    "name": "Камень душ",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 116,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Внутри виден маленький огонёк, который медленно \nкружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Малая душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 117,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мелкие мягкие семена",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 216,
+    "itypeId": 1,
+    "name": "Мелкие семена",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 118,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Зеленый и кожистый мох. Выглядит съедобно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 275,
+    "itypeId": 1,
+    "name": "Пещерный мох",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 119,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Объект представляет собой куб древнего вида, вокруг\nкоторого вращаются украшения.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 276,
+    "itypeId": 1,
+    "name": "Куб глубин",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 120,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Душа Ворона-Истязателя",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 121,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Душа пещерной матери",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 122,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Душа морского дракона",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 123,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Душа старого рыцаря",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 124,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Душа Железного Шекспира",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 125,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 126,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Одна из великих душ, которые работают как ключ к \nвознесению.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Бесконечная душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 127,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Одна из великих душ, которые работают как ключ к \nвознесению.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Господствуящая душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 128,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Одна из великих душ, которые работают как ключ к \nвознесению.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Просветленная душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 129,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Одна из великих душ, которые работают как ключ к \nвознесению.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Измученная душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 130,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Удивительно тяжелый драгоценный камень. Внутри виден \nмаленький огонёк, который медленно кружит внутри.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 274,
+    "itypeId": 1,
+    "name": "Древняя душа",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 131,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 132,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "10",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Красные травы с нейтральным запахом.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 280,
+    "itypeId": 1,
+    "name": "Красные травы",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 133,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга, содержащая рецепты основных трав и растений.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 155,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Алхимелия том 1",
+    "note": "<Item Recipe: 134>\n<Item Recipe: 135>\n<Item Recipe: 28>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 134,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 4,
+      "formula": "50",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Смесь трав, обладающая особенно сильным действием.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 295,
+    "itypeId": 1,
+    "name": "Смесь красной и синей травы",
+    "note": "<Synthesis Ingredients>\nitem 95\nitem 132\n</Synthesis Ingredients>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 135,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 4,
+      "formula": "10",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Смесь трав, обладающая особенно сильным действием.",
+    "effects": [
+      {
+        "code": 22,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 55,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 56,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 90,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 296,
+    "itypeId": 1,
+    "name": "Смесь красной и зеленой травы",
+    "note": "<Synthesis Ingredients>\nitem 94\nitem 132\n</Synthesis Ingredients>",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 136,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Сборник знаний по медицине.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 156,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Анатомия",
+    "note": "<Item Recipe: 8>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 137,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Эта книга повествует о легендарном братстве, которое \nв наши дни известно как новые боги.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 157,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Братство. Часть 2",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 138,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Эта книга повествует о легендарном братстве, которое \nв наши дни известно как новые боги.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 158,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Братство. Часть 2 (Оригинал)",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 139,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Эта книга повествует о легендарном братстве, которое \nв наши дни известно как новые боги.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 159,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Братство. Часть 1 (Оригинал)",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 140,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старая ржавая пила. Можно только представить сколько\nжестокости она повидала. Эффективна против инфекций.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 80,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 169,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 281,
+    "itypeId": 1,
+    "name": "Пила",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 141,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Рука еще относительно свежая.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 282,
+    "itypeId": 1,
+    "name": "Рука",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 142,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Нога еще относительно свежая.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 283,
+    "itypeId": 1,
+    "name": "Нога",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 143,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Отрезанная нога скелета.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 285,
+    "itypeId": 1,
+    "name": "Нога скелета",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 144,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Рука еще относительно свежая.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 287,
+    "itypeId": 1,
+    "name": "Голубоватая рука",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 145,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Нога еще относительно свежая.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 303,
+    "itypeId": 1,
+    "name": "Голубоватая нога",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 146,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 147,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Объект представляет собой куб древнего вида, вокруг\nкоторого вращаются украшения.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 174,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 276,
+    "itypeId": 1,
+    "name": "Куб глубин",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 148,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Большой ключ с эмблемой летящего ворона.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 277,
+    "itypeId": 1,
+    "name": "Ключ с эмблемой ворона",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 149,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Бумажный талисман с символами\nВосточных святилищ.",
+    "effects": [
+      {
+        "code": 22,
+        "dataId": 86,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 94,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 234,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 278,
+    "itypeId": 1,
+    "name": "Талисман очищения",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 150,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Огромная рука, подаренная тебе безымянным.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 279,
+    "itypeId": 1,
+    "name": "Рука безымянного",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 151,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мех Повелителя мух. Волосы жесткие и грязные.\nЭто отвратительно и заплесневело воняет.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 288,
+    "itypeId": 1,
+    "name": "Мех Повелителя мух",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 152,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Кусок сырого мяса. Это вредная пища, вы не знаете\nполезно ли есть это в сыром виде...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 61,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 289,
+    "itypeId": 1,
+    "name": "Сырое мясо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 153,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Кусок жареного мяса. Это нездоровая пища\nкоторая утолит ваш голод.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 290,
+    "itypeId": 1,
+    "name": "Жареное мясо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 154,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Мясо морского дракона. Оно жирное и вкусно пахнет.\nОно было пожарено.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 291,
+    "itypeId": 1,
+    "name": "Жареное мясо морского дракона",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 155,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга, в которой рассказывается об исследованиях\nсотворения жизни. Она написана новым богом Вальтеилом.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 183,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Доктрина о живом I",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 156,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга, в которой рассказывается об исследованиях\nсотворения жизни. Она написана новым богом Вальтеилом.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 184,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Доктрина о живом II",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 157,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Дневник безымянного стражника, дежурившего в \nзастенках подземелья страха и голода.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 187,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Дневник неизвестного стражника",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 96,
+    "tpGain": 0
+  },
+  {
+    "id": 158,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 159,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Свиток, раскрывающий секреты трюков с пиромантией.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 199,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток огненного трюка",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 160,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Свиток, раскрывающий секреты воспламенения.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 200,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток воспламенения",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 161,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Свиток с учениями Алл-Мера. Свиток\nнаучит тебя ходьбе по воде.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 188,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток хождения по воде",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 5,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 162,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старая бумага с различными символами и рисунками.\nКажется, это какая-то карта...",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 194,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 294,
+    "itypeId": 2,
+    "name": "Карта #1",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 163,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старая бумага с различными символами и рисунками.\nКажется, это какая-то карта...",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 195,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 294,
+    "itypeId": 2,
+    "name": "Карта #2",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 164,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Свиток с учениями Алл-Мера. Свиток научит тебя секретам \nтрансмутации.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 189,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток трансмутации",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 165,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 166,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "80",
+      "type": 4,
+      "variance": 20
+    },
+    "description": "Эликсир, который, как говорят, восстанавливает \nрассудок и разум. Запах наводит на мысли о востоке.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 267,
+    "itypeId": 1,
+    "name": "Эликсир разума",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 167,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "80",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Эликсир, который, как говорят, восстанавливает\nжизненные силы. Запах наводит на мысли о востоке.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 269,
+    "itypeId": 1,
+    "name": "Эликсир тела",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 168,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Тушеное блюдо из грибов, которое наверняка убережет \nот голода.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 227,
+    "itypeId": 1,
+    "name": "Грибное рагу",
+    "note": "<Synthesis Ingredients>\nitem 65: 3\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 169,
+    "animationId": 192,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "100",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Маленький и легкий нож, предназначенный для метания.",
+    "effects": [],
+    "hitType": 1,
+    "iconIndex": 315,
+    "itypeId": 1,
+    "name": "Метательный нож",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 170,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Инструкции по созданию своей собственной свинки из\nшишек.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 222,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Инструкция по изготовлению свиньи из шишек",
+    "note": "<Armor Recipe: 32>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 171,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Флакон, полный слабого яда, который, как говорят,\nубивает паразитов и червей внутри тела хозяина.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 145,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 61,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 22,
+        "dataId": 99,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 244,
+    "itypeId": 1,
+    "name": "Червивый сок",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 172,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 173,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты простых трюков с пиромантией",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 199,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток пиромантии",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 174,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты шара тьмы.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 150,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток темных искусств",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 175,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты целительного шепота",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 151,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток цервки лечения",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 176,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты любящего шепота",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 238,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток цервки Сильвиан",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 177,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Узнайте секреты игольчатых червей и о том, \nкак ими повелевать.",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 122,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 212,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 251,
+    "itypeId": 2,
+    "name": "Свиток пиявок",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 178,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Детская сказка про Покеткэта. Это вторая глава.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 228,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Сказка о Покеткэте II",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 179,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Украшенный древний ключ. Говорят, что ключ открывает\nстарый проход в центре города.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 312,
+    "itypeId": 1,
+    "name": "Ключ от старого прохода",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 180,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Украшенный древний ключ. Говорят, что ключ открывает\nкоролевский проход на центральной площади.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 311,
+    "itypeId": 1,
+    "name": "Ключ от королевского прохода",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 181,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Письмо наследного принца Людвига Бакмана.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 232,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 187,
+    "itypeId": 2,
+    "name": "Письмо Бакмана",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 182,
+    "animationId": 221,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 3,
+      "formula": "30",
+      "type": 1,
+      "variance": 20
+    },
+    "description": "Маленький дротик для метания. \nНа наконечнике виднеется яд.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 1,
+    "iconIndex": 309,
+    "itypeId": 1,
+    "name": "Метательный дротик",
+    "note": "",
+    "occasion": 1,
+    "price": 0,
+    "repeats": 1,
+    "scope": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 183,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "100",
+      "type": 4,
+      "variance": 20
+    },
+    "description": "Порошок из останков синего демона, найденный в\nгороде богов.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 244,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 224,
+    "itypeId": 1,
+    "name": "Порошок синего демона",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 184,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Коллекция вырванных страниц. Они неразборчивы без\nполного контекста. Тут упоминается искуственная жизнь...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 119,
+    "itypeId": 1,
+    "name": "Страницы книги I",
+    "note": "<Item Recipe: 187>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 185,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Коллекция вырванных страниц. Они неразборчивы без\nполного контекста. Тут упоминается магия Сильвиан...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 119,
+    "itypeId": 1,
+    "name": "Страницы книги II",
+    "note": "<Item Recipe: 187>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 186,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Коллекция вырванных страниц. Они неразборчивы без\nполного контекста. Тут упоминаются семя разрушения...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 119,
+    "itypeId": 1,
+    "name": "Страницы книги III",
+    "note": "<Item Recipe: 187>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 187,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Книга, описывающая учение Сильвиан и ее магию любви,\nона носит название - «Семя Демона».",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 54,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 245,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Сотворение жизни II",
+    "note": "<Synthesis Ingredients>\nitem 184\nitem 185\nitem 186\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 11,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 188,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старая бумага с различными символами и рисунками.\nКажется, это какая-то карта...",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 246,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 294,
+    "itypeId": 2,
+    "name": "Карта #3",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 189,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Золотая корона, инкрустированная яркими изумрудами.\nДолжно быть она стоит целое состояние.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 89,
+    "itypeId": 1,
+    "name": "Корона правителя",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 190,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 0
+    },
+    "description": "Страница с описанием учений Сильвиан и ее любовной\nмагии под названием «Возрождение любимого».",
+    "effects": [
+      {
+        "code": 43,
+        "dataId": 290,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 247,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 90,
+    "itypeId": 2,
+    "name": "Интрукции по возрождению",
+    "note": "<Synthesis Ingredients>\nitem 191\nitem 192\nitem 193\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 11,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 191,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Разорванная страница с инструкциями по скрытому\nоккультизму...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 91,
+    "itypeId": 1,
+    "name": "Разорванная инструкция I",
+    "note": "<Item Recipe: 190>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 192,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Разорванная страница с инструкциями по скрытому\nоккультизму...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 92,
+    "itypeId": 1,
+    "name": "Разорванная инструкция II",
+    "note": "<Item Recipe: 190>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 193,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Разорванная страница с инструкциями по скрытому\nоккультизму...",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 93,
+    "itypeId": 1,
+    "name": "Разорванная инструкция III",
+    "note": "<Item Recipe: 190>",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 194,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Кошачья мята в декоративной упаковке.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 85,
+    "itypeId": 1,
+    "name": "Кошачья мята",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 195,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Тонкий буклет, полный мужчин и женщин в\nинтригующих позах.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 82,
+    "itypeId": 1,
+    "name": "Грязный журнальчик",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 196,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Роза, увядшая и засохшая в темноте.\nОна по-прежнему сохраняет свою красоту.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 84,
+    "itypeId": 1,
+    "name": "Увядшая роза",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 197,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Детская игрушка, напоминающая сидящего медведя..\nИгрушка набита перьями.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 83,
+    "itypeId": 1,
+    "name": "Плюшевая игрушка",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 198,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Полоски свежей плоти.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 289,
+    "itypeId": 1,
+    "name": "Полоски плоти",
+    "note": "<Synthesis Ingredients>\nitem 15\nitem 16\nitem 17\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 199,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Длинная и прочная веревка. \nОна легко выдержит ваш вес.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 317,
+    "itypeId": 1,
+    "name": "Веревка",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 200,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 201,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Счастливая монета на крайний случай. Удерживайте\n[SHIFT] выбирая орла или решку, чтобы повысить шансы.",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 318,
+    "itypeId": 1,
+    "name": "Счастливая монета",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 202,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 312,
+    "itypeId": 1,
+    "name": "Ключ от хранилища",
+    "note": "",
+    "occasion": 3,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 203,
+    "animationId": 0,
+    "consumable": false,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Книга о Рыцарях Искупления Ватикана.",
+    "effects": [
+      {
+        "code": 44,
+        "dataId": 263,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 121,
+    "itypeId": 2,
+    "name": "Рыцари Искупления",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 0,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 204,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Корнеплод, обычно выращиваемый по всей Европе.\nВкус довольно мягкий.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 95,
+    "itypeId": 1,
+    "name": "Репа",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 205,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 206,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Корнеплод, обычно выращиваемый по всей Европе.\nВыглядит не очень то хорошо...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 105,
+    "itypeId": 1,
+    "name": "Гнилая репа",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 207,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старомодный мясной пирог. Выглядит, как давно\nиспортившийся...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 61,
+        "value1": 0.95,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 106,
+    "itypeId": 1,
+    "name": "Гнилой мясной пирог",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 208,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Яйцо птицы или ящерицы. Кто знает?\nПахнет ужасно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 108,
+    "itypeId": 1,
+    "name": "Тухлое яйцо",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 209,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Старомодный пирог из морковки и капусты. Выглядит\nуже не очень то хорошо...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 53,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 33,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 106,
+    "itypeId": 1,
+    "name": "Гнилой овощной пирог",
+    "note": "<Synthesis Ingredients>\nitem 43\nitem 42\nitem 17\n</Synthesis Ingredients>",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 210,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Капуста полностью сгнила. Она слишком мягкая и \nвлажная во всех отношениях...",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 52,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 32,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 110,
+    "itypeId": 1,
+    "name": "Гнилая капуста",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 211,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Помидор, который очень долго хранился в темноте. \nПрогнил окончательно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 111,
+    "itypeId": 1,
+    "name": "Гнилой помидор",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 212,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "Морковь очень долго хранилась в темноте. \nПрогнила окончательно.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 109,
+    "itypeId": 1,
+    "name": "Гнилая морковь",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 213,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "5",
+      "type": 3,
+      "variance": 20
+    },
+    "description": "Черника уже разлагается. Ягоды давно испортились.",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 51,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 31,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 17,
+        "value1": 0.8,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 107,
+    "itypeId": 1,
+    "name": "Гнилая черника",
+    "note": "",
+    "occasion": 2,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 214,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 215,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 216,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 217,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 218,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 219,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  },
+  {
+    "id": 220,
+    "animationId": 0,
+    "consumable": true,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [],
+    "hitType": 0,
+    "iconIndex": 0,
+    "itypeId": 1,
+    "name": "",
+    "note": "",
+    "occasion": 0,
+    "price": 0,
+    "repeats": 1,
+    "scope": 7,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0
+  }
+]
